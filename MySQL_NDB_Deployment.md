@@ -13,6 +13,9 @@ env1 & env2
 ```
 mgmd
 ```
+# Network and connectivity:
+IMPORTANT: There is no matter what IT infrastructure you will use - cluster cloud or physical, all machines must be connected each other without eny firewall.
+If you have a firewall you must configure to that like all machines to be a visible and accessible eachother, via ssh, http, https, ftp, ntp, dns and more! 
 --------------------------------------------------------------
 
 
