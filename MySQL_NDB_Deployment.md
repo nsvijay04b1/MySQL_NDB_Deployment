@@ -20,7 +20,7 @@ mgmd
 -------------------------------------------------------------
 
    
-# 1. Create directory where you will downloading the packages;
+# 1. Create directory where you want to downloading the packages;
  
 ```
 mkdir mysql
@@ -32,6 +32,11 @@ mkdir mysql/mysql-server
 cd /mysql/mysql-server
 wget https://downloads.mysql.com/archives/get/file/MySQL-Cluster-gpl-7.4.6-1.sles11.x86_64.rpm-bundle.tar
 ```
+Extract those packages:
+```
+tax xvf MySQL-Cluster-gpl-7.4.6-1.sles11.x86_64.rpm-bundle.tar -C mysql-server
+```
+
 # Note: Download the packages, on all five machines!
 ----------------------------------------------------
 
@@ -229,7 +234,7 @@ ndb-connectstring=000.000.000.000      (your "mgmd" host IP)
 ```
 mysqld_safe &
 ```
-  check port status ans service:
+  check the port status and services:
 
 ```
 netstat -nltp
@@ -269,7 +274,7 @@ password=...your password...
 ```
 mysqld_safe &
 ```
-  check port status ans service:
+  check the port status and services:
 
 ```
 netstat -nltp
