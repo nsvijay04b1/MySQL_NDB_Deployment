@@ -315,7 +315,7 @@ password=...your password...
 
 - On mgmd 
 
-  Start the cluster"
+Start the cluster:
 
 ```
 ndb_mgmd -f /var/lib/mycluster/config.ini
@@ -383,16 +383,16 @@ ndbd
 
   Check again to see if they are connected to the cluster.
 
-```
+
 
 - On mgmd
 
-  Login and check:
+Login and check:
 
 ```
 ndb_mgm
 ```
-  Use "show" command to view which node are connected
+Use "show" command to view which node are connected
 
 ```
 ndb_mgm> show
@@ -413,6 +413,5 @@ mysqld_safe &
 mysqld_safe &
 ```
 ```
-
 
 # Have fun with n11secur1ty =) 
