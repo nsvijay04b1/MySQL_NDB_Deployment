@@ -412,6 +412,5 @@ mysqld_safe &
 ```
 mysqld_safe &
 ```
-```
 
 # Have fun with n11secur1ty =) 
