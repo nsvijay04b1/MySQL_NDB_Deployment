@@ -141,7 +141,7 @@ hostname=000.000.000.000  (your host IP) - your second mysql node
 - On The data nodes:
   env3 and env4
 
-  Create "my.cnf" config file in /etc/ directory, which you show who is you "mgmd" host!
+  Create "my.cnf" config file in /etc/ directory, which telling on data node, who is the "mgmd" node!
   
   env3:
   
@@ -156,7 +156,7 @@ add in my.cnf:
 ndb-connectstring=000.000.000.000      (your "mgmd" host IP)
 ```
 
-  Create "my.cnf" config file in /etc/ directory, which you show who is you "mgmd" host!
+ Create "my.cnf" config file in /etc/ directory, which telling on data node, who is the "mgmd" node!
   
   env4:
   
@@ -397,77 +397,7 @@ mysqld_safe &
 ```
 mysqld_safe &
 ```
+```
+
 
 # Have fun with n11secur1ty =) 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
