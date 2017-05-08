@@ -198,8 +198,9 @@ ndb-connectstring=000.000.000.000      (your "mgmd" host IP)
 
 ```
 
-    Create "my.cnf" config file in /etc/ directory for starting the mysql cluster support 
-            and creation of the storage cluster table!
+Create "my.cnf" config file in /etc/ directory for starting the mysql cluster support 
+        and creation of the storage cluster table!
+  
   env2:
   
 ```
