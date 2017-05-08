@@ -373,12 +373,14 @@ id=5 (not connected.....................)
 ndbd
 ```
   You should see
-# WARNING: See (AFSDSE)IMPORTANT: if you use a firewall! 
 
 ```
 ....[ndbd] INFO       --Angel connected to (Your mgmd host IP:1186)
 ....[ndbd] INFO       --Angel allocated nodeid: 2
 ```
+# WARNING: See (AFSDSE)IMPORTANT: if you use a firewall! 
+
+
   Check again to see if they are connected to the cluster.
 
 ```
