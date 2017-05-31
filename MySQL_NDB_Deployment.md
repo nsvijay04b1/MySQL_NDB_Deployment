@@ -1,3 +1,5 @@
+![](https://github.com/nu11secur1ty/MySQL_NDB_Deployment/blob/master/shots/privileges.png)
+
 # Deployment of MySQL NDB Cluster
 
 # Map of nodes
@@ -413,4 +415,10 @@ mysqld_safe &
 mysqld_safe &
 ```
 
+------------------------------------------------------------------
+![](https://github.com/nu11secur1ty/MySQL_NDB_Deployment/blob/master/shots/privileges2.png)
+![](https://github.com/nu11secur1ty/MySQL_NDB_Deployment/blob/master/shots/privileges3.png)
+
+
+-------------------------------------------------------------------
 # Have fun with n11secur1ty =) 
